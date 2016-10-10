@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
+
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	FFI
 %define		pnam	Raw
@@ -9,7 +9,7 @@ Summary:	FFI::Raw - Perl bindings to the portable FFI library (libffi)
 Name:		perl-FFI-Raw
 Version:	0.32
 Release:	1
-# sae as perl
+# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/FFI/%{pdir}-%{pnam}-%{version}.tar.gz
